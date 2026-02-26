@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: #131313;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #box {
+  height: 50vh;
+  width: 50vw;
+  background-color: #bababa;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+}
+main #box h2 {
+  margin-top: 20px;
+  font-family: monospace;
+}
+main #box h2 span {
+  color: #230ae1;
+}
+main #box #flexx {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 25rem;
+}
+main #box #flexx h1 {
+  font-size: 4rem;
+  font-family: monospace;
+}
+main #box #flexx button {
+  color: white;
+  background-color: #009300;
+  padding: 20px 30px;
+  font-size: medium;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+  outline: 2px solid black;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+main #box #flexx button:hover {
+  transform: scale(1.1);
+}
+main #box #flexx button:active {
+  background-color: #e40127;
+  color: white;
+}
+main #box #outer {
+  height: 6rem;
+  width: 95%;
+  background-color: #fff4f4;
+  margin-top: 100px;
+  outline: 2px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+}
+main #box #outer #inner {
+  height: 50px;
+  width: 0%;
+  background-color: #00b330;
+}/*# sourceMappingURL=style.css.map */
