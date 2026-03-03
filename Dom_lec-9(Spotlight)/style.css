@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  /* background-color: #121212; */
+  background-image: url(https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?_gl=1*1r5svxa*_ga*ODYyMTA0NTQ4LjE3NjU1NTU0NTM.*_ga_8JE65Q40S6*czE3NjU1NTU0NTIkbzEkZzEkdDE3NjU1NTU0NjIkajUwJGwwJGgw);
+  background-size: cover;
+}
+
+/* types of gradient */
+/* linear gradient */
+/* radial gradient */
+/* conic gradient */
+
+:root {
+  /* --blu: #0081eb; */
+  --x: 400px;
+  --y: 400px;
+}
+
+.box {
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(120px at var(--x) var(--y), #8a0b0b12 50%, #000000e1);
+  border: 2px solid #ffe7e7;
+
+  /* background-color: red; */
+  /* background: linear-gradient(in hsl to top, white, red); */
+  /* background: radial-gradient(250px at 100px 100px, #00887a, #afafaf); */
+
+  /* background-color: var(--blu); */
+}
